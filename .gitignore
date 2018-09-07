@@ -1,0 +1,38 @@
+# Eclipse
+.classpath
+.project
+.settings/
+*/bin/
+
+# Intellij
+.idea/
+*.iml
+*.iws
+*.ipr
+out
+
+# Mac
+.DS_Store
+
+logs/
+*.log
+
+# Maven
+target/
+
+out/
+
+#Gradle
+gradle/
+.gradle/
+build/
+*/build/
+*/test-output/
+en=java
+/bin/
+
+/classes/
+.vinfo
+
+# ignore server related config, i.e. ip/port etc
+*.properties

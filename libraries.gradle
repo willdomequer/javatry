@@ -1,0 +1,29 @@
+ext {
+
+    commonsLang3Version = '3.7'
+    commonsIoVersion    = '2.6'
+    springVersion       = '2.5.6'
+    springRedisVersion  = '2.0.9.RELEASE'
+    jedisVersion        = '2.9.0'
+    nettyVersion        = '5.0.0.Alpha1'
+    protoBufVersion     = '3.6.1'
+    msgPackVersion      = '0.8.16'
+
+    libraries = [
+
+            // apache commons
+            commonsLang3:       "org.apache.commons:commons-lang3:${commonsLang3Version}",
+            commonsIo:          "commons-io:commons-io:${commonsIoVersion}",
+
+            springframework:    "org.springframework:spring:${springVersion}",
+            springRedis:        "org.springframework.data:spring-data-redis: ${springRedisVersion}",
+            jedis:              "redis.clients:jedis:${jedisVersion}",
+
+            netty:              "io.netty:name:netty-all:${nettyVersion}",
+            protoBuf:           "com.google.protobuf:protobuf-java:${protoBufVersion}",
+            msgPack:            "org.msgpack:msgpack-core:${msgPackVersion}",
+
+            junit:              "junit:junit:5.0.8.RELEASE",
+            springTest:         "org.springframework:spring-test:5.0.8.RELEASE"
+    ]
+}

@@ -1,0 +1,15 @@
+// command: D:\03.老鲍\00.source\protoc-3.6.1-win32\bin\protoc.exe --java_out=.\src\main\java .\proto\SubscribeReq.proto
+
+syntax = "proto2";
+
+package proto;
+
+option java_package = "com.rawbit.netty.ch8";
+option java_outer_classname = "SubscribeReqProto";
+
+message SubscribeReq {
+    required int32 subReqID = 1;
+    required string userName = 2;
+    required string productName = 3;
+    required string address = 4;
+}
