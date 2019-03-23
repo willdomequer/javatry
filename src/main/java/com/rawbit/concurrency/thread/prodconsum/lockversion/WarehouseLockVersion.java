@@ -1,4 +1,4 @@
-package com.rawbit.concurrency.thread.prodcon.lockversion;
+package com.rawbit.concurrency.thread.prodconsum.lockversion;
 
 import java.util.LinkedList;
 import java.util.concurrent.locks.ReentrantLock;

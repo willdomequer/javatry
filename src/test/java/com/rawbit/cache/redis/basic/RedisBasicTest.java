@@ -19,7 +19,7 @@ public class RedisBasicTest {
     @Test
     public void testRedisSet() throws Exception {
 
-        boolean result = redisCacheManager.set("test", "hello spring-redis", 5000);
+        boolean result = redisCacheManager.set("test1", "hello spring-redis", 5000);
 
         System.out.println("access " + result);
     }

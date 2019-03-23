@@ -1,4 +1,4 @@
-package com.rawbit.concurrency.thread.prodcon.lockversion;
+package com.rawbit.concurrency.thread.prodconsum.lockversion;
 
 
 public class Consumer implements Runnable {

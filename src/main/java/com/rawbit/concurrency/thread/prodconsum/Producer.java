@@ -1,13 +1,13 @@
-package com.rawbit.concurrency.thread.prodcon;
+package com.rawbit.concurrency.thread.prodconsum;
 
 
-public class Consumer implements Runnable {
+public class Producer implements Runnable {
 
     private Warehouse warehouse;
     private int num;
 
 
-    public Consumer(Warehouse warehouse, int num) {
+    public Producer(Warehouse warehouse, int num) {
         this.warehouse = warehouse;
         this.num = num;
     }
@@ -16,7 +16,7 @@ public class Consumer implements Runnable {
     @Override
     public void run() {
         while (true) {
-            warehouse.consume(num);
+            warehouse.produce(num);
         }
     }
 }

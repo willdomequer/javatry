@@ -1,4 +1,4 @@
-package com.rawbit.concurrency.thread.prodcon;
+package com.rawbit.concurrency.thread.prodconsum;
 
 import java.util.LinkedList;
 
